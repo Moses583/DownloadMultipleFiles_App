@@ -7,6 +7,10 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.1"
 constraintlayout = "2.1.4"
+retrofitVersion = "2.11.0"
+gsonVersion = "2.11.0"
+okhttpVersion = "5.0.0-alpha.10"
+loggingVersion = "5.0.0-alpha.10"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -16,6 +20,10 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+retrofit = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion"}
+gsonConverter = {group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "gsonVersion"}
+okhttp3= {group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttpVersion"}
+logging-interceptor= {group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "loggingVersion"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
